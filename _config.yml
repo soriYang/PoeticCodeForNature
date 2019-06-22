@@ -1,11 +1,7 @@
 title: soriYang's GitHub 😛😃😏😗😙😛😴😟😤
 logo: ./2_1.png
-description: Welcome! This is my frist GitHub page.
+description: Minimal is a theme for GitHub Pages.
 show_downloads: true
-
 google_analytics:
-
-
 theme: jekyll-theme-minimal
-color.background: "#03000"
-url: https://soriYang_.github.io/PoeticCodeForNature/
+url: https://soriYang.github.io/PoeticCodeForNature
