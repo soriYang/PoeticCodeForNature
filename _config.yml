@@ -3,7 +3,5 @@ logo: ./2_1.png
 description: This is my first GitHub page.
 show_downloads: true
 google_analytics:
-  //
 theme: jekyll-theme-minimal
-//
 url: https://soriYang.github.io/PoeticCodeForNature
