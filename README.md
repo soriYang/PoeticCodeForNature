@@ -4,5 +4,5 @@
 * 大家好!!
 
 ## And this is my workspace
- * [Disgusting](./just_example/)
+ * [Disgusting](./example/)
 ![예시 이미지](./yangnam.jpg)
