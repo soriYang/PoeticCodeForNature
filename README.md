@@ -5,4 +5,4 @@
 
 ## And this is my workspace
  * [예시 작업](./this_1/)
-![예시 이미지](./example_img.png)
+![예시 이미지](./yangnam.jpg)
