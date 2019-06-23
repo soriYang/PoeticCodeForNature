@@ -1,12 +1,31 @@
-let particleSystem;
+// The Nature of Code
+// Daniel Shiffman
+// http://natureofcode.com
 
-function setup() {
-  createCanvas(640, 360);
-  particleSystem = new ParticleSystem(createVector(width / 2, 50));
-}
+class ParticleSystem {
 
-function draw() {
-  background(51);
-  particleSystem.addParticle();
-  particleSystem.run();
+  constructor(position) {
+    this.origin = position.copy();
+    this.particles = [];
+  }
+
+  addParticle() {
+    let r = random(1);
+    if (r < 0.5) {
+      this.particles.push(new Particle(this.origin));
+    } else {
+      this.particles.push(new Confetti(this.origin));
+    }
+  }
+
+  run() {
+    // Run every particle
+    // ES6 for..of loop
+    for (let particle of this.particles) {
+      particle.run();
+    }
+
+    // Filter removes any elements of the array that do not pass the test
+    this.particles = this.particles.filter(particle => !particle.isDead());
+  }
 }
