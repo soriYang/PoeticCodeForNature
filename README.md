@@ -6,4 +6,4 @@
 
 ## ⬇️Strange and new things.
  * [Disgusting](./disgusting2019/)
-![예시 이미지](./yangnam.jpg)
+![예시 이미지](./disgusting.png)

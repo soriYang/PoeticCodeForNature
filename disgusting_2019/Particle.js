@@ -47,8 +47,8 @@ class Particle {
     fill(255,150,20, this.lifespan);
     text("과제",this.position.x-5, this.position.y-5, 12, 12);
   }
-  
- 
+
+
 
   // Is the particle still useful?
   isDead() {
@@ -59,4 +59,3 @@ class Particle {
     }
   }
 }
-

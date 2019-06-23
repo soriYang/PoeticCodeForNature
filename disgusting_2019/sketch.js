@@ -7,7 +7,7 @@ let img2;
 
 
 function preload() {
-  img1 = loadImage('dis_2.png'); 
+  img1 = loadImage('dis_2.png');
   img2= loadImage('bg.png');
 }
 
@@ -19,7 +19,7 @@ function setup() {
   tarsalgia = new ParticleSystem(createVector(width / 2, 140));
 
   money = new ParticleSystem(createVector(width / 2, 140));
-  
+
   task = new ParticleSystem(createVector(width / 2, 140));
 
 }
