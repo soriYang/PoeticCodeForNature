@@ -5,5 +5,5 @@
 * So now this page will show you my strange and new things.
 
 ## ⬇️Strange and new things.
- * [Disgusting](./disgusting2019/)
+ * [Disgusting](./disgusting_2019/)
 ![예시 이미지](./disgusting.png)
