@@ -7,3 +7,6 @@
 ## ⬇️Strange and new things.
  * [Disgusting](./disgusting_2019/)
 ![예시 이미지](./disgusting.png)
+
+* [LookAtMyPoo](./gasgas_2019/)
+![예시 이미지](./poo_1.png)
